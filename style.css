@@ -64,8 +64,8 @@ a:hover {
 
 .logo {
   font-size: 2rem;
-  opacity: 0;
-  animation: slideRight 1s ease forwards;
+  animation: slideTop 0.5s ease forwards;
+  animation-delay: calc(0.2s * var(--i));
 }
 
 .logo:hover {
@@ -203,6 +203,9 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  opacity: 0;
+  animation: slideLeft 1s ease forwards;
+  animation-delay: calc(0.2s * var(--i));
 }
 
 #socials-container {
