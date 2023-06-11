@@ -29,10 +29,10 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#about" style="--i: 1" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" style="--i: 2" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" style="--i: 3" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" style="--i: 4" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
@@ -43,15 +43,15 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Adrian Vladescu</h1>
-        <p class="section__text__p2">Photographer</p>
+        <p class="section__text__p2" ><span class="text"></span></p>
         <div class="btn-container">
           <button
-            class="btn btn-color-2"
+            class="btn btn-color-2" style="--i: 5"
             onclick="window.open('.assets/Sorin-Adrian Vlădescu.pdf')"
           >
             Download CV
           </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          <button class="btn btn-color-1" style="--i: 6" onclick="location.href='./#contact'">
             Contact Info
           </button>
         </div>
@@ -59,13 +59,13 @@
           <img
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
-            class="icon"
+            class="icon" style="--i: 7"
             onclick="location.href='https://www.linkedin.com/in/sorin-adrian-vladescu/'"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
-            class="icon"
+            class="icon" style="--i: 8"
             onclick="location.href='https://github.com/DeCeBALL'"
           />
         </div>
