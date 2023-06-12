@@ -5,8 +5,8 @@ function toggleMenu() {
   icon.classList.toggle("open");
 }
 
-var typed = new typed(".text", {
-  Strings: ["Photographer", "Student", "Web Developer", "Car enthusiast"],
+var typed = new typed('.text', {
+  Strings: ['Photographer', 'Student', 'Web Developer', 'Car enthusiast'],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,

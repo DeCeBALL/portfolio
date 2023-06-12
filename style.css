@@ -203,9 +203,6 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
-  opacity: 0;
-  animation: slideLeft 1s ease forwards;
-  animation-delay: calc(0.2s * var(--i));
 }
 
 #socials-container {
