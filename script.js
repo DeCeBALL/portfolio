@@ -6,7 +6,7 @@ function toggleMenu() {
 }
 
 var typed = new Typed('.text', {
-  Strings: ['Photographer', 'Student', 'Web Developer', 'Car enthusiast'],
+  strings: ['Photographer', 'Student', 'Web Developer', 'Car enthusiast'],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
