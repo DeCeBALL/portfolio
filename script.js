@@ -6,7 +6,7 @@ function toggleMenu() {
 }
 
 var typed = new Typed('.text', {
-  strings: ['Photographer', 'Student', 'Web Developer', 'Car enthusiast'],
+  strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
