@@ -40,7 +40,6 @@ nav {
   transition: 0.3s;
   opacity: 0;
   animation: slideTop 0.5s ease forwards;
-  animation-delay: calc(0.2s * var(--i));
 }
 
 .nav-links {
@@ -65,7 +64,6 @@ a:hover {
 .logo {
   font-size: 2rem;
   animation: slideTop 0.5s ease forwards;
-  animation-delay: calc(0.2s * var(--i));
 }
 
 .logo:hover {
